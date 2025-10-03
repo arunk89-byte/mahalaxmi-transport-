@@ -13,7 +13,7 @@ export function MajorClients() {
             <img
               src="/ldc-logo.jpg"
               alt="Louis Dreyfus Company Logo"
-              className="max-w-[60%] max-h-[60%] object-contain group-hover:scale-105 transition-transform duration-300"
+              className="max-w-[90%] max-h-[90%] object-contain group-hover:scale-105 transition-transform duration-300"
             />
           </div>
         </div>
@@ -23,7 +23,7 @@ export function MajorClients() {
             <img
               src="/cci-logo.jpg"
               alt="Cotton Corporation of India Logo"
-              className="max-w-[60%] max-h-[60%] object-contain group-hover:scale-105 transition-transform duration-300"
+              className="max-w-[90%] max-h-[90%] object-contain group-hover:scale-105 transition-transform duration-300"
             />
           </div>
         </div>

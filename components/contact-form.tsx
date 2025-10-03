@@ -23,7 +23,6 @@ export function Contact() {
         const email = formData.get("email") as string
         const phone = formData.get("phone") as string
         const message = formData.get("message") as string
-        const pickupDate = formData.get("pickupDate") as string
 
         // Create WhatsApp message
         const whatsappMessage = `*New Contact Inquiry - Mahalaxmi Transport*
@@ -31,7 +30,6 @@ export function Contact() {
 *Name:* ${name}
 *Email:* ${email}
 *Phone:* ${phone}
-*Preferred Pickup Date:* ${pickupDate}
 *Message:* ${message}
 
 _This inquiry was sent from the Mahalaxmi Transport website._`
@@ -74,19 +72,11 @@ _This inquiry was sent from the Mahalaxmi Transport website._`
               <Input id="email" name="email" type="email" placeholder="you@example.com" required />
             </div>
           </div>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="phone" className="block text-sm text-slate-700 mb-1">
-                    Phone
-                  </label>
-                  <Input id="phone" name="phone" type="tel" placeholder="+91 9XXXXXXXXX" />
-                </div>
-                <div>
-                  <label htmlFor="pickupDate" className="block text-sm text-slate-700 mb-1">
-                    Preferred Pickup Date
-                  </label>
-                  <Input id="pickupDate" name="pickupDate" type="date" />
-                </div>
+              <div>
+                <label htmlFor="phone" className="block text-sm text-slate-700 mb-1">
+                  Phone
+                </label>
+                <Input id="phone" name="phone" type="tel" placeholder="+91 9XXXXXXXXX" />
               </div>
           <div>
             <label htmlFor="message" className="block text-sm text-slate-700 mb-1">

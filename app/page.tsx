@@ -10,6 +10,7 @@ import { WhyChooseUs } from "@/components/section-why-choose-us"
 import { FutureVision } from "@/components/section-future"
 import { Gallery } from "@/components/section-gallery"
 import { MajorClients } from "@/components/section-major-clients"
+import { Ending } from "@/components/section-ending"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
@@ -67,6 +68,7 @@ export default function Page() {
               <MajorClients />
             </div>
           </section>
+          <Ending />
           <Footer />
     </main>
   )
