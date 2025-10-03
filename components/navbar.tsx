@@ -13,7 +13,14 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
-      <div className="w-full pl-4 pr-4 h-16 flex items-center justify-end">
+      <div className="w-full pl-4 pr-4 h-16 flex items-center justify-between">
+        <div className="flex items-center">
+          <img
+            src="/mahalaxmi-logo.jpg"
+            alt="Mahalaxmi Transport Logo"
+            className="w-16 h-16 rounded-full object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
+          />
+        </div>
             <nav className="hidden md:flex items-center gap-6">
               <a href="#who-we-are" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {
                 e.preventDefault();
@@ -48,13 +55,13 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 className={`${brandBlue} font-medium hover:text-blue-800 hover:underline transition-colors`}
               >
-                Login
+                Connect
               </a>
             </nav>
 
         <button
           aria-label="Toggle menu"
-          className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded border ml-auto"
+          className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded border"
           onClick={() => setOpen((v) => !v)}
         >
           <span className="sr-only">Toggle menu</span>
@@ -103,7 +110,7 @@ export function Navbar() {
                   rel="noopener noreferrer"
                   className="text-blue-700 font-medium hover:text-blue-800 hover:underline transition-colors"
                 >
-                  Login
+                  Connect
                 </a>
               </div>
             </div>
