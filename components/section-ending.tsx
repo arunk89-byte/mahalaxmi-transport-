@@ -13,7 +13,7 @@ export function Ending() {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div className="text-center p-6 bg-white rounded-lg shadow-sm hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🚚</span>
             </div>
@@ -21,7 +21,7 @@ export function Ending() {
             <p className="text-slate-600 text-sm">98% on-time delivery rate with professional handling</p>
           </div>
           
-          <div className="text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div className="text-center p-6 bg-white rounded-lg shadow-sm hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer">
             <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🛡️</span>
             </div>
@@ -29,7 +29,7 @@ export function Ending() {
             <p className="text-slate-600 text-sm">Proper loading, stacking, and unloading protocols</p>
           </div>
           
-          <div className="text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div className="text-center p-6 bg-white rounded-lg shadow-sm hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer">
             <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">📞</span>
             </div>
