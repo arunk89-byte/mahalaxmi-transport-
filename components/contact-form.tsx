@@ -5,7 +5,6 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 const brandBlueBg = "bg-blue-700"
 
@@ -19,21 +18,19 @@ export function Contact() {
     setStatus("loading")
     
     try {
-      // Collect form data
-      const name = formData.get("name") as string
-      const email = formData.get("email") as string
-      const phone = formData.get("phone") as string
-      const message = formData.get("message") as string
-      const serviceType = formData.get("serviceType") as string
-      const pickupDate = formData.get("pickupDate") as string
-      
-      // Create WhatsApp message
-      const whatsappMessage = `*New Contact Inquiry - Mahalaxmi Transport*
+        // Collect form data
+        const name = formData.get("name") as string
+        const email = formData.get("email") as string
+        const phone = formData.get("phone") as string
+        const message = formData.get("message") as string
+        const pickupDate = formData.get("pickupDate") as string
+
+        // Create WhatsApp message
+        const whatsappMessage = `*New Contact Inquiry - Mahalaxmi Transport*
 
 *Name:* ${name}
 *Email:* ${email}
 *Phone:* ${phone}
-*Service Type:* ${serviceType}
 *Preferred Pickup Date:* ${pickupDate}
 *Message:* ${message}
 
@@ -42,8 +39,8 @@ _This inquiry was sent from the Mahalaxmi Transport website._`
       // Encode message for URL
       const encodedMessage = encodeURIComponent(whatsappMessage)
       
-      // Open WhatsApp with the message
-      const whatsappUrl = `https://wa.me/918618699559?text=${encodedMessage}`
+          // Open WhatsApp with the message
+          const whatsappUrl = `https://wa.me/918073627241?text=${encodedMessage}`
       window.open(whatsappUrl, '_blank')
       
       setStatus("success")
@@ -77,36 +74,20 @@ _This inquiry was sent from the Mahalaxmi Transport website._`
               <Input id="email" name="email" type="email" placeholder="you@example.com" required />
             </div>
           </div>
-          <div className="grid md:grid-cols-2 gap-4">
-            <div>
-              <label htmlFor="phone" className="block text-sm text-slate-700 mb-1">
-                Phone
-              </label>
-              <Input id="phone" name="phone" type="tel" placeholder="+91 9XXXXXXXXX" />
-            </div>
-            <div>
-              <label htmlFor="serviceType" className="block text-sm text-slate-700 mb-1">
-                Service Type
-              </label>
-              <Select name="serviceType">
-                <SelectTrigger id="serviceType" aria-label="Select service type">
-                  <SelectValue placeholder="Choose a service" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="door-to-door">Door-to-Door</SelectItem>
-                  <SelectItem value="handling-only">Bale Handling Only</SelectItem>
-                  <SelectItem value="long-haul">Long-haul</SelectItem>
-                  <SelectItem value="express">Express</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div>
-              <label htmlFor="pickupDate" className="block text-sm text-slate-700 mb-1">
-                Preferred Pickup Date
-              </label>
-              <Input id="pickupDate" name="pickupDate" type="date" />
-            </div>
-          </div>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <label htmlFor="phone" className="block text-sm text-slate-700 mb-1">
+                    Phone
+                  </label>
+                  <Input id="phone" name="phone" type="tel" placeholder="+91 9XXXXXXXXX" />
+                </div>
+                <div>
+                  <label htmlFor="pickupDate" className="block text-sm text-slate-700 mb-1">
+                    Preferred Pickup Date
+                  </label>
+                  <Input id="pickupDate" name="pickupDate" type="date" />
+                </div>
+              </div>
           <div>
             <label htmlFor="message" className="block text-sm text-slate-700 mb-1">
               Message
@@ -131,37 +112,43 @@ _This inquiry was sent from the Mahalaxmi Transport website._`
         <div className="mt-6 flex flex-wrap items-center gap-4">
           <a
             className="text-blue-700 font-medium"
-            href="https://wa.me/918618699559"
+            href="https://wa.me/918073627241"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contact via WhatsApp"
           >
             WhatsApp
           </a>
-          <a className="text-slate-700" href="tel:+918618699559">
-            +91 8618699559
-          </a>
-          <a 
-            className="text-blue-700 font-medium hover:text-blue-800 hover:underline transition-colors" 
-            href="https://mahalaxmi-transport.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit our website"
-          >
-            mahalaxmi-transport.vercel.app
+          <a className="text-slate-700" href="tel:+918073627241">
+            +91 80736 27241
           </a>
         </div>
       </div>
 
-      <div className="rounded-lg overflow-hidden ring-1 ring-slate-200 h-[320px] md:h-auto">
+      <div className="relative rounded-lg overflow-hidden ring-1 ring-slate-200 h-[320px] md:h-auto">
         <iframe
-          title="Company Location Map - Keshwapur, Hubli, Karnataka"
-          aria-label="Company Location Map - Keshwapur, Hubli, Karnataka"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dOWWgUfXz8d8d8&q=Keshwapur,Hubli,Karnataka"
+          title="Mahalaxmi Transport Location Map"
+          aria-label="Mahalaxmi Transport Location Map"
+          src="https://maps.google.com/maps?q=580020,Hubli,Karnataka&t=&z=15&ie=UTF8&iwloc=&output=embed"
           className="w-full h-full"
           loading="lazy"
           allowFullScreen
         />
+         <div className="absolute top-4 right-4 bg-white/90 backdrop-blur rounded-lg p-4 shadow-lg">
+           <div className="text-center">
+             <div className="text-2xl mb-2">📍</div>
+             <h3 className="text-sm font-semibold text-slate-900 mb-3">Our Location</h3>
+             <a
+               href="https://maps.app.goo.gl/WTsZKqd5vYAMf2gH7"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="inline-flex items-center gap-1 bg-blue-700 text-white px-3 py-1.5 rounded text-xs hover:bg-blue-800 transition-colors"
+             >
+               <span>🗺️</span>
+               Open in Maps
+             </a>
+           </div>
+         </div>
       </div>
     </div>
   )

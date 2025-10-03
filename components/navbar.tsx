@@ -13,21 +13,33 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
-      <div className="container mx-auto max-w-6xl pl-4 pr-16 h-16 flex items-center justify-end">
+      <div className="w-full pl-4 pr-4 h-16 flex items-center justify-end">
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#who-we-are" className={`hover:${brandBlue} ${neutralText}`}>
+              <a href="#who-we-are" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('who-we-are')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
                 Who We Are
               </a>
-              <a href="#services" className={`hover:${brandBlue} ${neutralText}`}>
+              <a href="#services" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
                 Services
               </a>
-              <a href="#why-choose-us" className={`hover:${brandBlue} ${neutralText}`}>
+              <a href="#why-choose-us" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('why-choose-us')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
                 Why Us
               </a>
-              <a href="#gallery" className={`hover:${brandBlue} ${neutralText}`}>
+              <a href="#gallery" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
                 Gallery
               </a>
-              <a href="/contact" className={`hover:${brandBlue} ${neutralText}`}>
+              <a href="/contact" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`}>
                 Contact
               </a>
               <a
@@ -57,19 +69,31 @@ export function Navbar() {
           {open && (
             <div className="md:hidden border-t bg-white">
               <div className="container mx-auto max-w-6xl px-4 py-3 flex flex-col gap-3">
-                <a onClick={() => setOpen(false)} href="#who-we-are" className="text-slate-900">
+                <a onClick={() => {
+                  setOpen(false);
+                  document.getElementById('who-we-are')?.scrollIntoView({ behavior: 'smooth' });
+                }} href="#who-we-are" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Who We Are
                 </a>
-                <a onClick={() => setOpen(false)} href="#services" className="text-slate-900">
+                <a onClick={() => {
+                  setOpen(false);
+                  document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                }} href="#services" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Services
                 </a>
-                <a onClick={() => setOpen(false)} href="#why-choose-us" className="text-slate-900">
+                <a onClick={() => {
+                  setOpen(false);
+                  document.getElementById('why-choose-us')?.scrollIntoView({ behavior: 'smooth' });
+                }} href="#why-choose-us" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Why Us
                 </a>
-                <a onClick={() => setOpen(false)} href="#gallery" className="text-slate-900">
+                <a onClick={() => {
+                  setOpen(false);
+                  document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
+                }} href="#gallery" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Gallery
                 </a>
-                <a onClick={() => setOpen(false)} href="/contact" className="text-slate-900">
+                <a onClick={() => setOpen(false)} href="/contact" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Contact
                 </a>
                 <a

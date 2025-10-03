@@ -9,6 +9,7 @@ import { Vision } from "@/components/section-vision"
 import { WhyChooseUs } from "@/components/section-why-choose-us"
 import { FutureVision } from "@/components/section-future"
 import { Gallery } from "@/components/section-gallery"
+import { MajorClients } from "@/components/section-major-clients"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
@@ -46,22 +47,27 @@ export default function Page() {
           <Vision />
         </div>
       </section>
-      <section id="why-choose-us" aria-labelledby="why-choose-us-title" className="py-12 md:py-16">
-        <div className="container mx-auto max-w-6xl px-4">
-          <WhyChooseUs />
-        </div>
-      </section>
       <section id="future-vision" aria-labelledby="future-vision-title" className="py-12 md:py-16 bg-white">
         <div className="container mx-auto max-w-6xl px-4">
           <FutureVision />
         </div>
       </section>
-      <section id="gallery" aria-labelledby="gallery-title" className="py-12 md:py-16">
+      <section id="why-choose-us" aria-labelledby="why-choose-us-title" className="py-12 md:py-16">
         <div className="container mx-auto max-w-6xl px-4">
-          <Gallery />
+          <WhyChooseUs />
         </div>
       </section>
-      <Footer />
+          <section id="gallery" aria-labelledby="gallery-title" className="py-12 md:py-16">
+            <div className="container mx-auto max-w-6xl px-4">
+              <Gallery />
+            </div>
+          </section>
+          <section id="major-clients" aria-labelledby="major-clients-title" className="py-12 md:py-16 bg-white">
+            <div className="container mx-auto max-w-6xl px-4">
+              <MajorClients />
+            </div>
+          </section>
+          <Footer />
     </main>
   )
 }

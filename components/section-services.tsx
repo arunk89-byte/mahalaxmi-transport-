@@ -36,7 +36,7 @@ export function Services() {
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((s) => (
-          <Card key={s.title} className="p-6">
+          <Card key={s.title} className="p-6 hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer">
             <CardHeader className="pb-4">
               <CardTitle className="text-slate-900 text-lg">{s.title}</CardTitle>
             </CardHeader>
