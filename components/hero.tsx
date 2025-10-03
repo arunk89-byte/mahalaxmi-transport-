@@ -1,0 +1,42 @@
+import { Button } from "@/components/ui/button"
+
+const brandBlueText = "text-blue-700"
+const brandBlueBg = "bg-blue-700"
+const accentGreenText = "text-emerald-500"
+
+export function Hero() {
+  return (
+    <section id="home" aria-labelledby="hero-title" className="relative overflow-hidden">
+      <div className="container mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+        <div className="space-y-6">
+          <h1 id="hero-title" className={`text-pretty text-3xl md:text-5xl font-bold text-slate-900`}>
+            Trusted Cotton Bale Transportation & Logistics Services
+          </h1>
+          <p className="text-pretty text-slate-600 leading-relaxed">
+            We provide safe and timely transportation of cotton bales, along with quality sample cutting and reliable LR documentation. With us, your business runs smoothly and without delays.
+          </p>
+          <div className="flex flex-wrap items-center gap-3">
+            <a href="#services" className={`${brandBlueText} font-medium`}>
+              Explore Services →
+            </a>
+          </div>
+          <div className="flex items-center gap-4 pt-2">
+            <div className={`text-sm ${accentGreenText}`}>Timely Delivery</div>
+            <div className="text-sm text-slate-600">Cost-Effective</div>
+            <div className="text-sm text-slate-600">Pan-India</div>
+          </div>
+        </div>
+
+        <div className="relative aspect-[4/3] rounded-lg overflow-hidden ring-1 ring-slate-200">
+          <img
+            src={
+              "/placeholder.svg?height=720&width=960&query=cotton%20bales%20transport%20truck%20on%20indian%20highway"
+            }
+            alt="Truck transporting cotton bales on highway"
+            className="h-full w-full object-cover"
+          />
+        </div>
+      </div>
+    </section>
+  )
+}
