@@ -26,15 +26,15 @@ export function KeyHighlights() {
               <p className="leading-relaxed">Handled with care and proper protocols.</p>
             </CardContent>
           </Card>
-          <Card className="bg-blue-50">
-            <CardHeader>
-              <CardTitle className="text-slate-900">Coverage</CardTitle>
-            </CardHeader>
-            <CardContent className="text-slate-700">
-              <p className="text-3xl font-bold text-blue-700">28 States</p>
-              <p className="leading-relaxed">Pan-India pickup and delivery network.</p>
-            </CardContent>
-          </Card>
+              <Card className="bg-blue-50">
+                <CardHeader>
+                  <CardTitle className="text-slate-900">Coverage</CardTitle>
+                </CardHeader>
+                <CardContent className="text-slate-700">
+                  <p className="text-3xl font-bold text-blue-700">Karnataka</p>
+                  <p className="leading-relaxed">State-wide pickup and delivery network.</p>
+                </CardContent>
+              </Card>
           <Card className="bg-blue-50">
             <CardHeader>
               <CardTitle className="text-slate-900">Safety-first</CardTitle>

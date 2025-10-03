@@ -20,19 +20,17 @@ export function Hero() {
               Explore Services →
             </a>
           </div>
-          <div className="flex items-center gap-4 pt-2">
-            <div className={`text-sm ${accentGreenText}`}>Timely Delivery</div>
-            <div className="text-sm text-slate-600">Cost-Effective</div>
-            <div className="text-sm text-slate-600">Pan-India</div>
-          </div>
+              <div className="flex items-center gap-4 pt-2">
+                <div className={`text-sm ${accentGreenText}`}>Timely Delivery</div>
+                <div className="text-sm text-slate-600">Cost-Effective</div>
+                <div className="text-sm text-slate-600">Karnataka</div>
+              </div>
         </div>
 
         <div className="relative aspect-[4/3] rounded-lg overflow-hidden ring-1 ring-slate-200">
           <img
-            src={
-              "/placeholder.svg?height=720&width=960&query=cotton%20bales%20transport%20truck%20on%20indian%20highway"
-            }
-            alt="Truck transporting cotton bales on highway"
+            src="/mahalaxmi-logo.jpg"
+            alt="Mahalaxmi Transport logo"
             className="h-full w-full object-cover"
           />
         </div>

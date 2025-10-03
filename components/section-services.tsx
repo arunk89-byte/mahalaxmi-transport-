@@ -2,24 +2,29 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 const services = [
   {
-    title: "Cotton Bale Transportation",
+    title: "🚚 Dedicated Transportation of Cotton Bales",
     query: "cotton%20bales%20transportation%20truck",
-    desc: "Safe and secure transportation of cotton bales across states and cities, ensuring your goods reach the destination on time.",
+    desc: "Secure and efficient movement to any destination.",
   },
   {
-    title: "Sample Cutting for Customers",
-    query: "cotton%20sample%20cutting%20quality%20check",
-    desc: "We provide professional cotton sample cutting, helping buyers and sellers check the quality before making big decisions.",
+    title: "🕒 Timely Delivery",
+    query: "timely%20delivery%20logistics",
+    desc: "We value your time and ensure on-schedule transportation.",
   },
   {
-    title: "Lorry Receipts (LRs)",
-    query: "lorry%20receipt%20documentation%20logistics",
-    desc: "Accurate and transparent LR documentation so you can track your goods with ease and stay worry-free.",
+    title: "🛡 Safe Handling",
+    query: "safe%20handling%20cotton%20bales",
+    desc: "Proper loading, stacking, and unloading to keep bales intact.",
   },
   {
-    title: "Additional Logistics Support",
-    query: "warehouse%20handling%20packaging%20logistics",
-    desc: "From warehouse handling to packaging, we assist you with the right support whenever required.",
+    title: "📍 Karnataka Coverage",
+    query: "karnataka%20transportation",
+    desc: "Transportation services across Karnataka state.",
+  },
+  {
+    title: "💰 Cost-Effective Solutions",
+    query: "cost%20effective%20transportation",
+    desc: "Affordable transport without compromising safety.",
   },
 ]
 
@@ -29,18 +34,11 @@ export function Services() {
       <h2 id="services-title" className="text-2xl md:text-3xl font-semibold text-slate-900 mb-6">
         Our Services
       </h2>
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((s) => (
-          <Card key={s.title} className="overflow-hidden">
-            <div className="aspect-[16/9]">
-              <img
-                src={`/.jpg?key=6pr9m&height=720&width=1280&query=${s.query}`}
-                alt={s.title}
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <CardHeader>
-              <CardTitle className="text-slate-900">{s.title}</CardTitle>
+          <Card key={s.title} className="p-6">
+            <CardHeader className="pb-4">
+              <CardTitle className="text-slate-900 text-lg">{s.title}</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-600 leading-relaxed">{s.desc}</CardContent>
           </Card>

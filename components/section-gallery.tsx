@@ -1,8 +1,8 @@
 const items = [
-  { alt: "Cotton bale stacking in warehouse", src: "/cotton-bales-stack.jpg" },
   { alt: "Truck fleet ready for dispatch", src: "/truck-fleet-ready.jpg" },
-  { alt: "Loading cotton bales safely", src: "/loading-cotton-bales-safely.jpg" },
   { alt: "Rural pickup route in India", src: "/rural-pickup-route.jpg" },
+  { alt: "Loading cotton bales safely", src: "/loading-cotton-bales-safely.jpg" },
+  { alt: "Cotton bale stacking in warehouse", src: "/cotton-bales-stack.jpg" },
   { alt: "Cotton godown storage", src: "/textile-mill-receiving-goods.jpg" },
 ]
 
