@@ -25,14 +25,14 @@ export function Contact() {
         const message = formData.get("message") as string
 
         // Create WhatsApp message
-        const whatsappMessage = `*New Contact Inquiry - Mahalaxmi Transport*
+        const whatsappMessage = `*New Contact Inquiry - Mahalaxmi Transport co.*
 
 *Name:* ${name}
 *Email:* ${email}
 *Phone:* ${phone}
 *Message:* ${message}
 
-_This inquiry was sent from the Mahalaxmi Transport website._`
+_This inquiry was sent from the Mahalaxmi Transport co. website._`
       
       // Encode message for URL
       const encodedMessage = encodeURIComponent(whatsappMessage)
@@ -117,8 +117,8 @@ _This inquiry was sent from the Mahalaxmi Transport website._`
 
       <div className="relative rounded-lg overflow-hidden ring-1 ring-slate-200 h-[320px] md:h-auto">
         <iframe
-          title="Mahalaxmi Transport Location Map"
-          aria-label="Mahalaxmi Transport Location Map"
+          title="Mahalaxmi Transport co. Location Map"
+          aria-label="Mahalaxmi Transport co. Location Map"
           src="https://maps.google.com/maps?q=580020,Hubli,Karnataka&t=&z=15&ie=UTF8&iwloc=&output=embed"
           className="w-full h-full"
           loading="lazy"

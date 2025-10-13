@@ -15,11 +15,13 @@ export function Navbar() {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
       <div className="w-full pl-4 pr-4 h-16 flex items-center justify-between">
         <div className="flex items-center">
-          <img
-            src="/mahalaxmi-logo.jpg"
-            alt="Mahalaxmi Transport Logo"
-            className="w-16 h-16 rounded-full object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
-          />
+          <Link href="/">
+            <img
+              src="/mahalaxmi-logo.jpg"
+              alt="Mahalaxmi Transport co. Logo"
+              className="w-16 h-16 rounded-full object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
+            />
+          </Link>
         </div>
             <nav className="hidden md:flex items-center gap-6">
               <a href="#who-we-are" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {

@@ -19,7 +19,7 @@ const services = [
   {
     title: "📍 Karnataka Coverage",
     query: "karnataka%20transportation",
-    desc: "Transportation services across Karnataka state.",
+    desc: "Transportation services pan India.",
   },
   {
     title: "💰 Cost-Effective Solutions",

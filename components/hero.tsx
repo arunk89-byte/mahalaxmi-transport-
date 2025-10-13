@@ -30,7 +30,7 @@ export function Hero() {
         <div className="relative aspect-[4/3] rounded-lg overflow-hidden ring-1 ring-slate-200 hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer group">
           <img
             src="/mahalaxmi-logo.jpg"
-            alt="Mahalaxmi Transport logo"
+            alt="Mahalaxmi Transport co. logo"
             className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
