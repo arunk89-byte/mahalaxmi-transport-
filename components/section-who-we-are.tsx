@@ -7,7 +7,7 @@ export function WhoWeAre() {
         About Us
       </h2>
       <p className="text-pretty text-slate-600 leading-relaxed mb-4">
-        We are a dedicated cotton bale transportation company with years of experience in delivering trust and reliability across India. Our goal is not just to move cotton—it's to move it with care, precision, and on-time delivery.
+        We are a dedicated cotton bale transportation company with years of experience in delivering trust and reliability across India. Our goal is not just to move cotton bales—it's to move them with care, precision, and on-time delivery.
       </p>
       <p className="text-pretty text-slate-600 leading-relaxed mb-4">
         Our values are built on honesty, teamwork, and customer-first service. We understand the importance of timely transport and transparent documentation in the textile industry, and we make sure our clients experience a stress-free process.
@@ -29,7 +29,8 @@ export function WhoWeAre() {
                 className="object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <h4 className="text-lg font-semibold text-slate-900 mb-2">Visioner & Strategic Leader</h4>
+            <h4 className="text-lg font-semibold text-slate-900 mb-2">Basavaraj Hatti</h4>
+            <p className="text-slate-600 mb-2">Visioner & Strategic Leader</p>
             <p className="text-slate-600 leading-relaxed italic">
               "Leading with vision, growing with purpose"
             </p>
@@ -45,10 +46,8 @@ export function WhoWeAre() {
                 className="object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <h4 className="text-lg font-semibold text-slate-900 mb-2">Owner & Managing Director</h4>
-            <p className="text-slate-600 leading-relaxed italic">
-              "Excellence in every delivery, trust in every mile"
-            </p>
+            <h4 className="text-lg font-semibold text-slate-900 mb-2">Tejas B Hatti</h4>
+            <p className="text-slate-600 mb-2">Owner & Managing Director</p>
           </div>
         </div>
       </div>

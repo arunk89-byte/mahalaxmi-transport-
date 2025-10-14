@@ -13,7 +13,7 @@ export function Hero() {
             Trusted Cotton Bale Transportation & Logistics Services
           </h1>
           <p className="text-pretty text-slate-600 leading-relaxed">
-            We provide safe and timely transportation of cotton bales, along with quality sample cutting and reliable LR documentation. With us, your business runs smoothly and without delays.
+            We are a dedicated cotton bales transportation company, committed to delivering your goods safely, efficiently, and on time. With years of experience in the industry, we understand the importance of reliability and professionalism in every delivery and have built a reputation for professionalism, efficiency, and trustworthiness.
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <a href="#services" className={`${brandBlueText} font-medium`}>

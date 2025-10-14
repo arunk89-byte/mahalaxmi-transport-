@@ -7,7 +7,7 @@ export function Ending() {
             Ready to Transport Your Cotton Bales?
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed mb-8">
-            Join hundreds of satisfied customers who trust Mahalaxmi Transport co. for their cotton logistics needs. 
+            Join hundreds of satisfied customers who trust Mahalaxmi Transport co. for their cotton bales logistics needs. 
             Experience reliable, safe, and timely transportation services pan India.
           </p>
         </div>
@@ -41,7 +41,7 @@ export function Ending() {
         <div className="bg-blue-50 rounded-lg p-8 border-l-4 border-blue-700">
           <h3 className="text-xl font-semibold text-blue-900 mb-4">Get Started Today</h3>
           <p className="text-blue-800 mb-6">
-            Contact us now for a free quote and experience the difference that professional cotton transportation makes.
+            Contact us now for a free quote and experience the difference that professional cotton bales transportation makes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -63,7 +63,7 @@ export function Ending() {
         
         <div className="mt-12 pt-8 border-t border-slate-200">
           <p className="text-slate-500 text-sm">
-            Thank you for choosing Mahalaxmi Transport co. - Your trusted partner in cotton logistics across Karnataka to pan India.
+            Thank you for choosing Mahalaxmi Transport co. - Your trusted partner in cotton bales logistics across Karnataka to pan India.
           </p>
         </div>
       </div>

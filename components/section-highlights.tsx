@@ -41,6 +41,7 @@ export function KeyHighlights() {
           <CardContent className="text-slate-700">
             <p className="text-3xl font-bold text-blue-700">SOPs</p>
             <p className="leading-relaxed">Standardized loading/unloading & lashing.</p>
+            <p className="leading-relaxed mt-1">Affiliated 150+ Trucks.</p>
           </CardContent>
         </Card>
       </div>

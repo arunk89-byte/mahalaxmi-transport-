@@ -7,6 +7,7 @@ import { Services } from "@/components/section-services"
 import { WorkCulture } from "@/components/section-work-culture"
 import { Vision } from "@/components/section-vision"
 import { WhyChooseUs } from "@/components/section-why-choose-us"
+import { FleetCapacity } from "@/components/section-fleet-capacity"
 import { FutureVision } from "@/components/section-future"
 import { Gallery } from "@/components/section-gallery"
 import { MajorClients } from "@/components/section-major-clients"
@@ -58,14 +59,19 @@ export default function Page() {
           <WhyChooseUs />
         </div>
       </section>
-          <section id="gallery" aria-labelledby="gallery-title" className="py-12 md:py-16">
-            <div className="container mx-auto max-w-6xl px-4">
-              <Gallery />
-            </div>
-          </section>
-          <section id="major-clients" aria-labelledby="major-clients-title" className="py-12 md:py-16 bg-white">
+      <section id="fleet-capacity" aria-labelledby="fleet-capacity-title" className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto max-w-6xl px-4">
+          <FleetCapacity />
+        </div>
+      </section>
+          <section id="major-clients" aria-labelledby="major-clients-title" className="py-12 md:py-16">
             <div className="container mx-auto max-w-6xl px-4">
               <MajorClients />
+            </div>
+          </section>
+          <section id="gallery" aria-labelledby="gallery-title" className="py-12 md:py-16 bg-white">
+            <div className="container mx-auto max-w-6xl px-4">
+              <Gallery />
             </div>
           </section>
           <Ending />

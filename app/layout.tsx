@@ -7,8 +7,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Mahalaxmi Transport co. - Cotton Bale Transportation Services in Karnataka',
-  description: 'Professional cotton bale transportation services pan India. Safe handling, timely delivery, and reliable logistics for cotton traders and textile mills.',
-  keywords: 'cotton transportation, cotton bales, logistics, Karnataka, textile transport, cotton logistics, Mahalaxmi Transport co.',
+  description: 'Professional cotton bale transportation services pan India. Safe handling, timely delivery, and reliable logistics for cotton bales traders and textile mills.',
+  keywords: 'cotton bales transportation, cotton bales, logistics, Karnataka, textile transport, cotton bales logistics, Mahalaxmi Transport co.',
   authors: [{ name: 'Mahalaxmi Transport co.' }],
   creator: 'Mahalaxmi Transport co.',
   publisher: 'Mahalaxmi Transport co.',
