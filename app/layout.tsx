@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   creator: 'Mahalaxmi Transport co.',
   publisher: 'Mahalaxmi Transport co.',
   robots: 'index, follow',
+  metadataBase: new URL('https://mahalaxmitransport.co'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Mahalaxmi Transport co. - Cotton Bale Transportation Services',
     description: 'Professional cotton bale transportation services pan India. Safe handling, timely delivery, and reliable logistics.',
