@@ -29,10 +29,14 @@ export function MajorClients() {
         </div>
         
         <div className="bg-white p-6 rounded-lg ring-1 ring-slate-200 hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer group">
-          <div className="aspect-[3/2] flex items-center justify-center">
-            <div className="text-center group-hover:scale-105 transition-transform duration-300">
-              <div className="text-lg font-bold text-slate-700 mb-2 group-hover:text-blue-700 transition-colors duration-300">More Clients</div>
-              <div className="text-sm text-slate-600 group-hover:text-slate-800 transition-colors duration-300">Leading textile mills and cotton bales traders pan India</div>
+          <div className="aspect-[3/2] flex flex-col items-center justify-center">
+            <img
+              src="/kvic-logo.jpg"
+              alt="Khadi and Village Industries Commission Logo"
+              className="max-w-[90%] max-h-[80%] object-contain group-hover:scale-105 transition-transform duration-300"
+            />
+            <div className="text-sm text-slate-600 mt-2 group-hover:text-slate-800 transition-colors duration-300">
+              (Chitradurga)
             </div>
           </div>
         </div>

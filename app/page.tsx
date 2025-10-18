@@ -19,6 +19,18 @@ export default function Page() {
     <main>
       <Navbar />
       <Hero />
+      <section id="mission" aria-labelledby="mission-title" className="py-12 md:py-16">
+        <div className="container mx-auto max-w-6xl px-4">
+          <div className="bg-blue-100 rounded-lg p-6 border-l-4 border-blue-500">
+            <h2 id="mission-title" className="text-xl md:text-2xl font-semibold text-blue-900 mb-3">
+              Digital Transformation
+            </h2>
+            <p className="text-pretty text-blue-800 leading-relaxed">
+              We are digitalizing Mahalaxmi Transport's bales transport operations with modern technology solutions for enhanced efficiency and transparency.
+            </p>
+          </div>
+        </div>
+      </section>
       <section id="who-we-are" aria-labelledby="who-we-are-title" className="py-12 md:py-16">
         <div className="container mx-auto max-w-6xl px-4">
           <WhoWeAre />

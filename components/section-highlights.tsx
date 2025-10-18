@@ -21,8 +21,8 @@ export function KeyHighlights() {
             <CardTitle className="text-slate-900">Bales Moved</CardTitle>
           </CardHeader>
           <CardContent className="text-slate-700">
-            <p className="text-3xl font-bold text-blue-700">5,000+</p>
-            <p className="leading-relaxed">Handled with care and proper protocols.</p>
+            <p className="text-3xl font-bold text-blue-700">500,000+</p>
+            <p className="leading-relaxed text-slate-600">Bales moved every year</p>
           </CardContent>
         </Card>
         <Card className="bg-blue-50 hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer">
