@@ -11,6 +11,7 @@ import { FleetCapacity } from "@/components/section-fleet-capacity"
 import { FutureVision } from "@/components/section-future"
 import { Gallery } from "@/components/section-gallery"
 import { MajorClients } from "@/components/section-major-clients"
+import { OurLocation } from "@/components/section-our-location"
 import { Ending } from "@/components/section-ending"
 import { Footer } from "@/components/footer"
 
@@ -84,6 +85,11 @@ export default function Page() {
           <section id="gallery" aria-labelledby="gallery-title" className="py-12 md:py-16 bg-white">
             <div className="container mx-auto max-w-6xl px-4">
               <Gallery />
+            </div>
+          </section>
+          <section id="our-location" aria-labelledby="our-location-title" className="py-12 md:py-16">
+            <div className="container mx-auto max-w-6xl px-4">
+              <OurLocation />
             </div>
           </section>
           <Ending />

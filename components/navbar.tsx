@@ -48,6 +48,12 @@ export function Navbar() {
               }}>
                 Gallery
               </a>
+              <a href="#our-location" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`} onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('our-location')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
+                Our Location
+              </a>
               <a href="/contact" className={`hover:${brandBlue} ${neutralText} transition-colors duration-200`}>
                 Contact
               </a>
@@ -101,6 +107,12 @@ export function Navbar() {
                   document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
                 }} href="#gallery" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Gallery
+                </a>
+                <a onClick={() => {
+                  setOpen(false);
+                  document.getElementById('our-location')?.scrollIntoView({ behavior: 'smooth' });
+                }} href="#our-location" className="text-slate-900 hover:text-blue-700 transition-colors">
+                  Our Location
                 </a>
                 <a onClick={() => setOpen(false)} href="/contact" className="text-slate-900 hover:text-blue-700 transition-colors">
                   Contact
