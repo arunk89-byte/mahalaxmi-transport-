@@ -7,7 +7,7 @@ export function MajorClients() {
       <p className="text-slate-600 leading-relaxed mb-8">
         We are proud to serve some of the most trusted names in the cotton bales and textile industry. Our reliable transportation services have earned the trust of leading corporations pan India.
       </p>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
         <div className="bg-white p-6 rounded-lg ring-1 ring-slate-200 hover:ring-2 hover:ring-black hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer group">
           <div className="aspect-[3/2] flex items-center justify-center">
             <img
@@ -37,6 +37,20 @@ export function MajorClients() {
             />
             <div className="text-sm text-slate-600 mt-2 group-hover:text-slate-800 transition-colors duration-300">
               (Chitradurga)
+            </div>
+          </div>
+        </div>
+        
+        <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg ring-1 ring-blue-200 hover:ring-2 hover:ring-blue-400 hover:shadow-lg hover:-translate-y-1 hover:scale-102 transition-all duration-300 cursor-pointer group">
+          <div className="aspect-[3/2] flex flex-col items-center justify-center text-center">
+            <div className="text-4xl font-bold text-blue-700 mb-3 group-hover:text-blue-800 transition-colors duration-300">
+              +
+            </div>
+            <div className="text-xl font-semibold text-blue-800 group-hover:text-blue-900 transition-colors duration-300">
+              Many More
+            </div>
+            <div className="text-base text-blue-600 group-hover:text-blue-700 transition-colors duration-300">
+              Clients
             </div>
           </div>
         </div>
