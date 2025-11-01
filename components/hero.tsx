@@ -11,7 +11,7 @@ export function Hero() {
         <div className="container mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
           <h1 id="hero-title" className={`text-pretty text-3xl md:text-5xl font-bold text-slate-900`}>
-            Mahalaxmi Transport Co. - Trusted Cotton Bale Transportation & Logistics Services, controller
+            A leading cotton-bale transport company in Karnataka
           </h1>
             <p className="text-pretty text-slate-600 leading-relaxed">
               We are a dedicated cotton bales transportation company, committed to delivering your goods safely, efficiently, and on time. With years of experience in the industry, we understand the importance of reliability and professionalism in every delivery and have built a reputation for professionalism, efficiency, and trustworthiness.
